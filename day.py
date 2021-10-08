@@ -99,7 +99,7 @@ icons ={}                                          # 날씨 이미지 아이콘 
 
 samsung = get_stock()                                 # 삼성의 주식정보 얻어오기
 weather = get_weather()                              # 현재 날씨 정보 얻어오기
-dust = get_dust()                                  # 현재 미세먼지 정보 얻어오기
+#dust = get_dust()                                  # 현재 미세먼지 정보 얻어오기
  
 if samsung:                                         # 삼성 주식정보가 값이 들어 있으면  
     draw.text((10,40), samsung['price'], inky_display.BLACK, stock_font)   # draw에 삼성의 현재 주가 그리기
