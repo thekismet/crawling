@@ -1,12 +1,13 @@
 #!/usr/bin/python3
 # This code comes from https://m.blog.naver.com/PostView.naver?blogId=emperonics&logNo=222247749109&proxyReferer=https:%2F%2Fwww.google.com%2F
 # This is for my education only.
+# The code is modified per my environment.
 
-import requests                                      # http 요청용 모듈
-import glob, os                                      # 파일 리스트 확인, 경로 지정 등에 필요한 모듈
-import datetime as dt                                # 날짜, 시간용 모듈
-import json                                          # json 파일 변환용 모듈
-import xmltodict                                     # xml 파일 변환용 모듈
+import requests                                      
+import glob, os                                      
+import datetime as dt                                
+import json                                          
+import xmltodict                                     
 from bs4 import BeautifulSoup                        # html파싱용 모듈
 from fake_useragent import UserAgent                 # 봇으로 인식할 때 사용하는 모듈
 from inky import InkyPHAT                            # e-ink 디스플레이용 모듈
